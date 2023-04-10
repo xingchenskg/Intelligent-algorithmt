@@ -7,7 +7,7 @@ class YdmVerify(object):
     _nom_url = "https://www.jfbym.com/api/YmServer/verifyapi"
     _fun_url = "https://www.jfbym.com/api/YmServer/funnelapi"
 
-    _token = "3EmdRjMVUqQgPLqUm7KF9ohgxuBeo5IyVjaNTBtE4II="
+    _token = ""
     _headers = {
         'Content-Type': 'application/json'
     }
