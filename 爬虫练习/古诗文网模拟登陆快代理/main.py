@@ -15,7 +15,7 @@ if __name__ == '__main__':
     with open('./logician.jpg','wb') as fp:
         fp.write(img_data)
     img_path ="E:/爬虫练习/模拟登陆古诗文网站/logician.jpg"
-    result = base64_api(uname='xingchenskg',pwd='yc329750',img=img_path,typeid=1001)
+    result = base64_api(uname='账户',pwd='密码',img=img_path,typeid=1001)
     print(result)
     # id=result['data']['id']
     # result = reportError(id)
